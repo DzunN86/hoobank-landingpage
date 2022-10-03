@@ -1,11 +1,14 @@
-import React from 'react'
+import { Navbar } from "./components";
+import styles from "./style";
 
-function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+const App = () => (
+  <div className="bg-primary w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar />
+      </div>
+    </div>
+  </div>
+);
 
-export default App
+export default App;
