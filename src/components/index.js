@@ -4,6 +4,8 @@ import Business from "./Business";
 import Stats from "./Stats";
 import Billing from "./Billing";
 import CardDeal from "./CardDeal";
+import Testimonials from "./Testimonials";
+import Clients from "./Clients";
 
 export {
   Navbar,
@@ -12,4 +14,6 @@ export {
   Stats,
   Billing,
   CardDeal,
+  Testimonials,
+  Clients,
 };
