@@ -117,11 +117,14 @@
 }
 
 .feedback-card {
-  background: transparent;
+  opacity: 0.6;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
 }
 
 .feedback-card:hover {
   background: var(--black-gradient);
+  opacity: 1;
 }
 
 .blue__gradient {
